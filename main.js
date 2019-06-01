@@ -1,3 +1,5 @@
+console.log('OK')
+
 var execSh = require("exec-sh");
 
 // run interactive bash shell
@@ -6,5 +8,4 @@ execSh("c:", function(err){
     console.log("Exit code: ", err.code);
     return;
   }
- 
 });
