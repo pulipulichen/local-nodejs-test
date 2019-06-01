@@ -1,0 +1,22 @@
+{
+  "name": "local-nodejs-test",
+  "version": "1.0.0",
+  "description": "Just for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulipulichen/local-nodejs-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pulipulichen/local-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/pulipulichen/local-nodejs-test#readme",
+  "dependencies": {
+    "exec-sh": "^0.3.2"
+  }
+}
